@@ -5,4 +5,6 @@
 # that does. The last matching line wins.
 
 # Default: Development, accountable for this repo (its manifest owner).
-* @Inventeer/area-dev-inventeer
+# Operations is the backup code owner: its approval lets a pull request
+# merge when no other Development member is free to review.
+* @Inventeer/area-dev-inventeer @Inventeer/area-ops-inventeer
